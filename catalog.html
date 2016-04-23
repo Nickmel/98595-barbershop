@@ -32,17 +32,18 @@
     
     
   <h1 class="page-title"> Средства для ухода </h1> <!-- Заголово страницы и хлебныекрошки -->
-  <ul class="breadcrumbs">
-    <li><a href="">Главное</a></li>
-    <li><a href="">Магазин</a></li>
-    <li><a href="">Средство для ухода</a></li>
-  </ul>
+  <div class="breadcrumbs">
+    <a href="">Главное</a>
+    <a href="">Магазин</a>
+    <span>Средство для ухода</span>
+  </div>
 
     
     
   <div class="filter"> <!-- Фильтр магазина -->
  
     <form action="https://htmlacademy.ru" method="get">
+      <div class="filter-producers">
       <h2> Производители </h2>
       <label><input type="checkbox">Baxter of California</label>
       <label><input type="checkbox">Mr Natty</label>
@@ -50,10 +51,13 @@
       <label><input type="checkbox">Malin+Goetz</label>
       <label><input type="checkbox">Murray's</label>
       <label><input type="checkbox">American Crew</label>
+      </div>
+      <div class="filter-groups">
       <h2> Группы товаров </h2>
       <label><input type="radio">Бритвенные принадлежности</label>
       <label><input type="radio">Средства для ухода</label>
-      <label><input type="radio">Аксессуары</label>         
+      <label><input type="radio">Аксессуары</label> 
+      </div>
       <button type="submit"> Показать </button>    
     </form>
         
@@ -64,54 +68,66 @@
     <div class="showcase"> <!--  Витрина магазина -->
 
         <article class="item">
-        <img src="" class="item-image">
-        <span class="item-title"> Набор для путешествий 
-«Baxter of California» </span>
+        <a href=""><img src="" width="220" height="165" class="item-image"></a>
+        <div class="item-title"> Набор для путешествий 
+«Baxter of California» </div>
+        <div class="price-buy">
         <span class="item-price"> 2 900 РУБ. </span>
-        <a href="" class="item-buy"> Купить </a>    
+        <a href="" class="item-buy"> Купить </a>
+        </div>
       </article>
       <article class="item">
-        <img src="" class="item-image">
-        <span class="item-title"> Увлажняющий кондиционер 
-«Baxter of California» </span>
+        <a href=""><img src="" width="220" height="165" class="item-image" class="item-image"></a>
+        <div class="item-title"> Увлажняющий кондиционер 
+«Baxter of California» </div>
+        <div class="prica-buy">
         <span class="item-price"> 750 РУБ. </span>
-        <a href="" class="item-buy"> Купить </a>    
+        <a href="" class="item-buy"> Купить </a> 
+        </div>
       </article>
       <article class="item">
-        <img src="" class="item-image">
-        <span class="item-title"> Гель для волос
-«SUAVECITO» </span>
+        <a href=""><img src="" width="220" height="165" class="item-image" class="item-image"></a>
+        <div class="item-title"> Гель для волос
+«SUAVECITO» </div>
+        <div class="prica-buy">
         <span class="item-price"> 290 РУБ. </span>
-        <a href="" class="item-buy"> Купить </a>    
+        <a href="" class="item-buy"> Купить </a> 
+        </div>
       </article>
       <article class="item">
-        <img src="" class="item-image">
-        <span class="item-title"> Глина для укладки волос 
-«American crew» </span>
+        <a href=""><img src="" width="220" height="165" class="item-image" class="item-image"></a>
+        <div class="item-title"> Глина для укладки волос 
+«American crew» </div>
+        <div class="prica-buy">
         <span class="item-price"> 500 РУБ. </span>
-        <a href="" class="item-buy"> Купить </a>    
+        <a href="" class="item-buy"> Купить </a>
+        </div>
       </article>
       <article class="item">
-        <img src="" class="item-image">
-        <span class="item-title"> Гель для волос
-«AMERICAN CREW» </span>
+        <a href=""><img src="" width="220" height="165" class="item-image" class="item-image"></a>
+        <div class="item-title"> Гель для волос
+«AMERICAN CREW» </div>
+        <div class="prica-buy">
         <span class="item-price"> 300 РУБ. </span>
         <a href="" class="item-buy"> Купить </a>    
+        </div>
       </article>
       <article class="item">
-        <img src="" class="item-image">
-        <span class="item-title"> Набор для бритья
-«Baxter of California» </span>
+          <a href=""><img src="" width="220" height="165" class="item-image" class="item-image"></a>
+        <div class="item-title"> Набор для бритья
+«Baxter of California» </div>
+        <div class="prica-buy">
         <span class="item-price"> 3 900 РУБ. </span>
-        <a href="" class="item-buy"> Купить </a>    
+        <a href="" class="item-buy"> Купить </a>
+        </div>
       </article>
     
     </div>
     
     
     
-    <div class="page-number"> <!-- Навигация по предложенным товарам -->
-      <a href=""> 1 </a>
+    <div class="pagination"> <!-- Навигация по предложенным товарам -->
+      <span> 1 </span>
       <a href=""> 2 </a>
       <a href=""> 3 </a>
     </div>
