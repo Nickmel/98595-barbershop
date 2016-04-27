@@ -4,15 +4,169 @@ line-height: 18tpx;
 color: black;
 font-weight: bold;
 font-family: PT Sans Narrow;
-  
+}
+
+.container {
+    width: 940;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix {
+clear: both;
+}
+
+.container:after {
+content: "";
+display: table;
+clear:both;
 }
 
 h1 {
 font-size: 30px;
 line-height: 42px;
+
 }
 
 h2 {
 font-size: 24px;
 line-height: 30px;
+}
+
+
+/* Стилизация хедера */
+.main-header {
+background: black;   
+}
+
+.logo {
+margin: 20px;
+margin-top: 19px;
+width: 110;
+height:25;
+float: left;
+}
+
+.menu {
+width: 540px;
+float: left;    
+}
+
+.main-menu {
+font-size: 0px;
+}
+
+.main-menu li {
+display: inline-block;
+margin: 0px;
+font-size: 16px;
+}
+
+.main-menu a {
+    color: white;
+}
+
+.login {
+float: right;
+width: 140px;
+}
+
+.login a {
+    color: white;
+}
+
+/* Стили к каталогу */
+/* Стилизация фильтра */
+.filter {
+    width:220px;
+    float: left;
+    
+}
+
+.filter-producers label, .filter-groups label {
+display: block;
+}
+
+/* Стилизация витрины */
+
+.showcase {
+width: 700px;
+float: right;
+font-size: 0px;
+
+}
+
+.item {
+width: 220px;
+height: 285px;
+display: inline-block;
+font-size: 16px;
+vertical-align: top;
+margin-right: 20px;
+}
+
+.item:nth-child(3n) {
+margin-right: 0px;
+}
+
+.pagination {
+width: 220px;
+height: 45px;
+font-size:14px;
+margin-bottom: 50px;
+}
+
+/* Стилизация футера */
+.main-footer {
+    background: grey;
+}
+
+.main-footer-companyinfo {
+width: 320px;
+float: left;
+margin-right: 60px;
+}
+
+.main-footer-social {
+width: 180px;
+margin-right: 60px;
+float: left;
+}
+
+.main-footer-designed {
+width: 320px;
+float: right;
+}
+
+/* Стили к товару */
+.item-gallery {
+width: 460px;
+margin-right: 80px;
+margin-bottom: 50px;
+float: left;
+}
+
+.item-thumb {
+width: 460px;
+height: 500x;
+}
+
+.item-add img {
+width: 140px;
+height: 150px;
+display: inline-block;
+margin-right: 10px;
+
+    
+}
+
+.item-add 
+}
+.item-info {
+    width: 400px;
+    float: right;
+    float: right;
 }
