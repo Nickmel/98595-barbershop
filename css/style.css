@@ -10,7 +10,6 @@ font-family: PT Sans Narrow;
     width: 940;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 1px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,7 +100,7 @@ font-size: 0px;
 
 .item {
 width: 220px;
-height: 285px;
+min-height: 285px;
 display: inline-block;
 font-size: 16px;
 vertical-align: top;
@@ -121,7 +120,7 @@ margin-bottom: 50px;
 
 /* Стилизация футера */
 .main-footer {
-    background: grey;
+    background-image: url(/img/footer-gradient.gif);
 }
 
 .main-footer-companyinfo {
@@ -157,7 +156,6 @@ height: 500x;
 .item-add img {
 width: 140px;
 height: 150px;
-display: inline-block;
 margin-right: 10px;
 
     
